@@ -1,0 +1,30 @@
+/* Centraliza o conteúdo da página */
+body {
+    text-align: center; /* Centraliza o texto e outros elementos inline */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+}
+
+/* Estiliza o título */
+h1 {
+    font-size: 2em; /* Tamanho da fonte do título */
+    margin: 20px 0; /* Margem acima e abaixo do título */
+}
+
+/* Estiliza o parágrafo */
+p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    margin: 10px 0; /* Margem acima e abaixo do parágrafo */
+}
+
+/* CSS para centralizar e diminuir a imagem */
+.product {
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+.product img.img1 {
+    max-width: 100%; /* Ajusta a largura da imagem ao tamanho do container, preservando a proporção */
+    height: auto;    /* Ajusta a altura da imagem de acordo com a largura para manter a proporção */
+    display: block;  /* Garante que a imagem seja exibida como bloco, facilitando o alinhamento */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente */
+}

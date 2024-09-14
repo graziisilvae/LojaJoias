@@ -1,0 +1,34 @@
+/* Estilos gerais da navbar */
+.navbar {
+    background-color: #ffdede; /* Cor de fundo da navbar */
+    border-bottom: 2px solid #ffdede; /* Borda inferior da navbar */
+    padding: 13px 25px; /* Espaçamento interno da navbar */
+}
+
+/* Estilos para a lista dentro da navbar */
+.navbar ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamento interno */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: flex-end; /* Alinha os itens ao final da navbar (à direita) */
+}
+
+/* Estilos para cada item da lista */
+.navbar li {
+    margin-left: 10px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilos para os links dentro dos itens da lista */
+.navbar a {
+    color: rgb(0, 0, 0); /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 8px 12px; /* Espaçamento interno dos links */
+    border-radius: 4px; /* Bordas arredondadas dos links */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Estilos para o estado hover dos links */
+.navbar a:hover {
+    background-color: #555; /* Cor de fundo quando o mouse está sobre o link */
+}

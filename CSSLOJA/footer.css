@@ -1,0 +1,17 @@
+/* Estilo para o rodapé */
+.footer {
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto em branco */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+    padding: 10px 20px; /* Espaçamento interno: 10px em cima e embaixo, 20px à esquerda e à direita */
+    position: relative; /* Posiciona o rodapé de forma relativa */
+    bottom: 0; /* Garante que o rodapé fique na parte inferior do contêiner pai, se necessário */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura do contêiner pai */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+}
+
+/* Opcional: estilo para o texto do rodapé */
+.footer p {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    font-size: 1em; /* Ajusta o tamanho da fonte do texto do rodapé */
+}
